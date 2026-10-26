@@ -1,0 +1,11 @@
+{
+  "name": "ostra",
+  "displayName": "Ostra",
+  "version": "0.1.0",
+  "description": "Branche Claude Code sur Ostra, la mémoire d'entreprise de votre organisation, avec vos droits Ostra, et lui apprend quand chercher et comment citer.",
+  "author": { "name": "Ostra-Tech", "url": "https://github.com/Ostra-Tech" },
+  "homepage": "https://github.com/Ostra-Tech/ia-plugins",
+  "repository": "https://github.com/Ostra-Tech/ia-plugins",
+  "license": "MIT",
+  "keywords": ["ostra", "mémoire d'entreprise", "mcp"]
+}

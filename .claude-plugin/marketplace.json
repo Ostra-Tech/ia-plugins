@@ -1,0 +1,12 @@
+{
+  "name": "ostra",
+  "description": "Les plugins d'Ostra-Tech pour Claude Code.",
+  "owner": { "name": "Ostra-Tech", "url": "https://github.com/Ostra-Tech" },
+  "plugins": [
+    {
+      "name": "ostra",
+      "source": "./plugins/ostra",
+      "description": "Ostra, la mémoire d'entreprise de votre organisation, dans Claude Code : le connecteur et la skill « travailler avec Ostra »."
+    }
+  ]
+}
