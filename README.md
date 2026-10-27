@@ -32,7 +32,7 @@ Ensuite, ouvrez `/mcp`, choisissez `plugin:ostra:ostra`, puis « Authenticate »
 
 Premier essai : « Demande à Ostra ce que nous savons de <sujet> ».
 
-Si Claude Code montre aussi un autre serveur Ostra (l'ancien serveur MCP local, ou le connecteur « Ostra » de votre compte claude.ai), coupez-en un dans `/mcp` : sinon, Claude voit deux fois les mêmes outils.
+Si Claude Code montre aussi un autre serveur Ostra (le connecteur « Ostra » de votre compte claude.ai), coupez-en un dans `/mcp` : sinon, Claude voit deux fois les mêmes outils.
 
 ## Lancer un prompt dans Claude Code
 
