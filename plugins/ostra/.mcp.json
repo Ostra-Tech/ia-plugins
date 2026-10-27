@@ -1,1 +1,1 @@
-{ "mcpServers": { "ostra": { "type": "http", "url": "${OSTRA_MCP_URL:-https://api.staging.ostra-tech.fr/mcp}" } } }
+{ "mcpServers": { "ostra": { "type": "http", "url": "https://api.ostra-tech.fr/mcp" } } }
