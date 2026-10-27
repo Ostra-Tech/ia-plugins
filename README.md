@@ -13,7 +13,6 @@ Ce dépôt est la marketplace Claude Code d'Ostra. Il contient un plugin, `ostra
 
 - Un compte Ostra, membre de l'organisation à consulter, et l'accès « depuis Claude ou ChatGPT » allumé pour cette organisation (Ostra le règle).
 - Claude Code 2.1.275 ou plus récent, pour l'installation en une ligne.
-- Tant que ce dépôt est privé : un accès en lecture à `Ostra-Tech/ia-plugins` sur GitHub, et des identifiants git déjà enregistrés sur le poste. Soit une clé SSH chargée dans `ssh-agent` ; soit `gh auth login` puis `gh auth setup-git`, avec `CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1` dans l'environnement. Claude Code ne demande aucun mot de passe : sans ces identifiants, l'installation échoue.
 
 ## Installer dans Claude Code
 
