@@ -7,7 +7,9 @@ Ostra est la mémoire d'entreprise de votre organisation : contrats, procédures
 - **Le connecteur MCP d'Ostra**, à l'adresse `https://api.ostra-tech.fr/mcp`. C'est le seul serveur que le plugin contacte.
 - **La skill « travailler avec Ostra »** : chercher dans Ostra avant de répondre sur l'organisation, citer chaque document par son titre et son lien, ne rien présenter comme venant d'Ostra qu'aucun passage ne dit, ne déposer ou n'enrichir que sur demande explicite.
 
-Le plugin n'exécute aucun programme sur votre poste : ni hook, ni script, ni serveur local. Il ne lit ni vos fichiers ni vos variables d'environnement.
+- **Une confirmation à chaque écriture** : avant que Claude dépose un document, complète le graphe, propose une fiche ou signale une réponse, Claude Code vous demande votre accord, même si vous avez autorisé d'avance les outils d'Ostra. Une consigne cachée dans un document lu ne peut donc pas écrire dans Ostra sans vous. La lecture n'est pas concernée.
+
+Cette confirmation est le seul programme que le plugin exécute sur votre poste : un hook qui affiche une ligne fixe, sans rien lire ni rien envoyer. Le plugin n'a ni script ni serveur local, et il ne lit ni vos fichiers ni vos variables d'environnement.
 
 ## Prérequis
 
