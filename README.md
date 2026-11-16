@@ -8,7 +8,6 @@ Ce dépôt est la marketplace Claude Code d'Ostra. Il contient un plugin, `ostra
 - Il ajoute la skill « travailler avec Ostra » : quand chercher dans Ostra, comment citer, ce que le connecteur ne fait pas.
 - Il donne accès aux ressources d'Ostra, à joindre avec `@` : `ostra://organisation`, `ostra://referentiel` et `ostra://documents/<identifiant>`.
 - Il donne accès à quatre prompts, à lancer avec `/` : préparer une réponse à un appel d'offres, faire le point sur un projet, vérifier une affirmation, échéances à venir.
-- Il demande votre confirmation avant chaque écriture dans Ostra (dépôt, graphe, fiche, signalement), même si vous avez autorisé d'avance les outils d'Ostra. Un hook `PreToolUse` le fait, pour tout serveur MCP qui expose ces outils (`hooks/hooks.json`).
 
 ## Prérequis
 
